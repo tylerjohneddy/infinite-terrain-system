@@ -17,8 +17,8 @@ public class Runner {
 			distance = calc.distance(playerPostion, intrest);
 			
 		while (distance != 0.0 && exit) {
-			System.out.printf("playerx=%s,playerY=%s,intrestX=%s,intrestY=%s%n", playerPostion[0], playerPostion[1],
-					intrest[0], intrest[1]);
+//			System.out.printf("playerx=%s,playerY=%s,intrestX=%s,intrestY=%s%n", playerPostion[0], playerPostion[1],
+//					intrest[0], intrest[1]);
 			System.out.printf("The compass reads\n\t%.2fm\n", (float) distance);
 			System.out.println("Which direction do you want to go?");
 
